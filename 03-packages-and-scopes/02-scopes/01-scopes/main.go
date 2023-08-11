@@ -14,6 +14,8 @@ import "fmt"
 // package scope
 const ok = true
 
+var field = false
+
 // package scope
 func main() { // block scope starts
 
@@ -21,5 +23,9 @@ func main() { // block scope starts
 
 	// hello and ok are visible here
 	fmt.Println(hello, ok)
+	fmt.Println(field, ok)
+	field = true
+	fmt.Println(name, field, ok)
+	packagescope()
 
 } // block scope ends
