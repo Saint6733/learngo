@@ -37,4 +37,8 @@ func main() { // block scope starts
 	// from the change inside the nested func
 	fmt.Println("inside main:", declareMeAgain)
 
+	declareMeAgain = 5
+
+	fmt.Println("inside main:", declareMeAgain)
+
 } // block scope ends

@@ -15,6 +15,7 @@ func main() {
 
 	// two files belong to the same package
 	// calling `bye()` of bye.go here
+	hey()
 	bye()
 }
 
