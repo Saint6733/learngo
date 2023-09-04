@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // Uncomment below code to see the error
 // (Just remove the // characters for all 3 lines below)
 
@@ -17,3 +19,7 @@ package main
 // func bye() {
 // 	fmt.Println("Bye!")
 // }
+
+func bye() {
+	fmt.Println("Bye!")
+}

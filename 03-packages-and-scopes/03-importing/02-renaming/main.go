@@ -10,8 +10,10 @@ package main
 
 import "fmt"
 import f "fmt"
+import fm "fmt"
 
 func main() {
 	fmt.Println("Hello!")
 	f.Println("There!")
+	fm.Println("rename!")
 }
