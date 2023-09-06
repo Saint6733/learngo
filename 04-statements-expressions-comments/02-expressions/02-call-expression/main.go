@@ -16,4 +16,6 @@ import (
 func main() {
 	// runtime.NumCPU() is a call expression
 	fmt.Println(runtime.NumCPU() + 1)
+	fmt.Println(runtime.NumCgoCall())
+	fmt.Println(runtime.NumGoroutine())
 }
