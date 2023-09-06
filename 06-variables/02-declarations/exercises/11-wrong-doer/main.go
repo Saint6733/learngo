@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Wrong doer
 //
@@ -25,4 +27,7 @@ func main() {
 
 	// Then declare it:
 	// var ? ?
+	fmt.Println(name)
+
+	var name string
 }

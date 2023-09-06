@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Print the literals
 //
@@ -25,4 +27,9 @@ package main
 
 func main() {
 	// Use fmt.Println()
+	fmt.Println(1, 2, 3, 4, 5, -5, -4, -3, -2, -1)
+	fmt.Println(1.0, 2.0, 3.0, 4.0, 5.0)
+	fmt.Println(true, false)
+	fmt.Println("hello")
+	fmt.Println("你好")
 }

@@ -17,4 +17,5 @@ func main() {
 	fmt.Println(0x19) // 25
 	fmt.Println(0x32) // 50
 	fmt.Println(0x64) // 100
+	fmt.Println(0x999)
 }

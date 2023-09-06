@@ -8,7 +8,12 @@
 
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(speed)
 	// var speed int
+	var speed int
+	speed = 100
+	fmt.Println(speed)
 }
