@@ -16,7 +16,7 @@ func main() {
 
 	// ERROR:
 	// cannot assign orange to apple (different types)
-	// apple = orange
+	//apple = orange
 
 	// you need to convert orange to apple
 
@@ -35,8 +35,8 @@ func main() {
 	fmt.Println(color)
 
 	// this doesn't work. 65.0 is a float.
-	// fmt.Println(string(65.0))
-
+	//fmt.Println(string(65.0))
+	//
 	// this works: there are two byte values
 	// byte is also an int
 	fmt.Println(string([]byte{104, 105}))

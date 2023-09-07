@@ -15,12 +15,19 @@ func main() {
 	force := 2.5 // float64
 
 	// ERROR: invalid op
-	// speed = speed * force
-
+	//speed = speed * force
+	//
 	// conversion can be a destructive operation
 	// `force` loses its fractional part...
 
 	speed = speed * int(force)
 
 	fmt.Println(speed)
+
+	// try float64 calc
+	speed1, force1 := 100, 2.5
+
+	result := float64(speed1) * force1
+
+	fmt.Println(result)
 }
