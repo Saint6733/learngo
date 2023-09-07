@@ -30,6 +30,8 @@ func main() {
 	// true's default type is bool
 	// so, the type of the safe variable becomes a bool
 	safe := true
+	num := 1
+	fmt.Println(num)
 
 	fmt.Println(safe)
 }

@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Multiple Short Declare
 //
@@ -20,8 +22,8 @@ package main
 func main() {
 	// ADD YOUR DECLARATIONS HERE
 	//
-
+	age, isMan := 14, true
 	// THEN UNCOMMENT THE CODE BELOW
-
+	fmt.Println(age, isMan)
 	// fmt.Println(a, b)
 }

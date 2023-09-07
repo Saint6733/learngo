@@ -22,7 +22,9 @@ import "fmt"
 // However, you can use the normal declaration at the
 // package scope. Since it has a keyword: `var`
 var safe = true
+name :="fyp"
 
 func main() {
 	fmt.Println(safe)
+	fmt.Println(name)
 }

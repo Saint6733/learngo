@@ -24,4 +24,7 @@ func main() {
 	var safe = true
 
 	fmt.Println(safe)
+
+	var num = 2
+	fmt.Println(num)
 }
