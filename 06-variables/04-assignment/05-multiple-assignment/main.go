@@ -26,5 +26,6 @@ func main() {
 	// EXERCISE:
 	//   Try this alternative (formatted time).
 
-	// fmt.Println(speed, now.Format(time.Kitchen))
+	fmt.Println(speed, now.Format(time.Kitchen))
+	fmt.Println(now.Format(time.DateTime))
 }
