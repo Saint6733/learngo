@@ -17,6 +17,8 @@ import (
 //       OR, THERE WILL BE AN ERROR
 
 func main() {
+
+	fmt.Println("-------------------------------------------------------------")
 	fmt.Printf("%#v\n", os.Args)
 
 	// Gets an item from the os.Args string slice:
