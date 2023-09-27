@@ -25,13 +25,20 @@ import "fmt"
 func main() {
 	width, height := 10, 2
 
-	width = width + 1
-	width = width + height
-	width = width - 1
-	width = width - height
-	width = width * 20
-	width = width / 25
-	width = width % 5
+	// 增加宽度
+	width += 1
+	// 增加高度
+	width += height
+	// 减少宽度
+	width -= 1
+	// 减少高度
+	width -= height
+	// 宽度乘以20
+	width *= 20
+	// 宽度除以25
+	width /= 25
+	// 宽度模5
+	width %= 5
 
 	fmt.Println(width)
 }

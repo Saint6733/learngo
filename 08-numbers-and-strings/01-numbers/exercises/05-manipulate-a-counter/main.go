@@ -11,9 +11,7 @@ package main
 import "fmt"
 
 // ---------------------------------------------------------
-// EXERCISE: Manipulate a Counter
-//
-//  1. Write the simplest line of code to increase
+// EXERCISE: Manipulate a Counterase
 //     the counter variable by 1.
 //
 //  2. Write the simplest line of code to decrease
@@ -33,10 +31,18 @@ import "fmt"
 // ---------------------------------------------------------
 
 func main() {
+	//
+	//  1. Write the simplest line of code to incre
 	// DO NOT CHANGE THE CODE BELOW
 	var counter int
 
 	// TYPE YOUR CODE HERE
+	counter++
+	counter--
+
+	counter += 5
+	counter *= 10
+	counter /= 5
 
 	// DO NOT CHANGE THE CODE BELOW
 	fmt.Println(counter)
